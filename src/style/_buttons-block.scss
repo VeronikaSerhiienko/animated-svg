@@ -1,0 +1,59 @@
+.buttons-block {
+  &__area {
+    display: block;
+    margin: 0 auto;    
+    height: 300px;
+    background-color: $background-light;    
+
+    &--dark {
+      background-color: $background-dark;
+    }
+  }
+
+  &__button {
+    &:hover .buttons-block__rectangle-hover{
+      cursor: pointer;
+      width: 100%;
+      x: 0;
+    }
+
+    &:hover .buttons-block__text {
+      fill: $text-white;
+    }
+  }
+
+  &__text {
+    font-size: 28px;  
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    fill: $text-pink;
+    cursor: pointer;
+    transition: 0.5s;    
+
+    &--purple {
+     fill: $text-purple; 
+   }
+ }
+
+  &__rectangle {
+
+    stroke: $text-pink;
+    stroke-width: 10px;
+    fill: transparent;
+    cursor: pointer;
+    z-index: 1;   
+
+    &--purple {
+      stroke: $text-purple;
+    }
+    &-hover {
+      fill: $text-pink;
+      fill-opacity: 0.5;
+      transition: all 1s;
+      &--purple {
+        fill:$text-purple;
+      }
+    }
+  }
+}

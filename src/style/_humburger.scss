@@ -1,0 +1,18 @@
+.humburger {  
+  animation: menu 3s infinite linear;
+
+  &__line {
+    stroke-linecap: round;
+    stroke-width: 10px;
+    stroke: $text-white;
+    animation: upper 3s infinite linear;
+
+    &--central {
+      animation-name: central;      
+    }
+
+    &--under {
+      animation-name: under;      
+    }
+  }
+}

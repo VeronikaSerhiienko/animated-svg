@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <title>svg</title>
+</head>
+<body>
+  <svg viewbox="0 0 1000 650" width=" 1000px" height="650px">
+    <line x1="20" y1="20" x2="320" y2="320" stroke-width="1" stroke="rgb(0,255,0)"/>
+    <circle r="130" cx="435" cy="145" fill="blue" stroke="blue" stroke-width="1" />
+    <line x1="170" y1="320" x2="170" y2="620" stroke-width="3" stroke="rgb(0,0,0)"/>
+    <line x1="20" y1="470" x2="320" y2="470" stroke-width="3" stroke="rgb(255,0,0)"/>
+    <ellipse rx="200" ry="100"  cx="570" cy="470" fill="transparent" stroke="yellow" stroke-dasharray="4" stroke-width="3"/>
+    <circle class="path" r="130" cx="720" cy="150" fill="transparent" stroke="red" stroke-width="20"/> 
+  </svg>
+  <div>
+    <svg viewbox="0 0 200 200" width=" 200" height="200">
+      <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+      .star1{fill:#39b54a;}
+    </style>
+    <path xmlns="http://www.w3.org/2000/svg" class="star1" d="M100,0C44.77,0,0,44.77,0,100c0,55.23,44.77,100,100,100s100-44.77,100-100C200,44.77,155.23,0,100,0z   M146.19,163.57L100,139.29l-46.19,24.28l8.82-51.43L25.27,75.72l51.64-7.5L100,21.42l23.09,46.79l51.64,7.5l-37.37,36.42  L146.19,163.57z"/>
+  </svg>
+</div>
+<h2>with tag object</h2>
+<object width="200" data="img/circle-star.svg" type="image/svg+xml"></object>
+
+<div>
+  <h2>Base64 Data URI in background-image</h2>
+  <div class="base64"></div>
+</div>
+<svg class="centro"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="fill:#000000;">
+  <g id="surface1">
+    <path style=" fill:#FFA000;" d="M 25 34 L 24 36 L 23 34 L 22 26 L 26 26 Z "></path>
+    <path style=" fill:#FBC02D;" d="M 29 44 C 29 45.105469 28.105469 46 27 46 L 21 46 C 19.894531 46 19 45.105469 19 44 L 19 37 C 19 35.894531 23 34 23 34 L 25 34 C 25 34 29 35.894531 29 37 Z "></path>
+    <path style=" fill:#E5A24A;" d="M 25 34 L 25 35 L 23 35 L 23 34 L 22 26 L 26 26 Z "></path>
+    <path style=" fill:#E5A24A;" d="M 19.710938 24.972656 C 19.203125 24.84375 7.292969 21.734375 5.320313 12.203125 C 4.441406 7.957031 5.527344 5.507813 6.597656 4.199219 C 7.914063 2.578125 9.714844 2 10.953125 2 C 12.617188 2 13.898438 2.457031 14.773438 3.359375 C 15.871094 4.496094 15.855469 5.878906 15.851563 6.035156 C 15.851563 7.605469 14.785156 10 11.851563 10 C 11.726563 10 11.09375 9.980469 10.4375 9.636719 C 9.480469 9.132813 8.953125 8.195313 8.953125 7 L 10.953125 7 C 10.953125 7.574219 11.179688 7.765625 11.371094 7.867188 C 11.597656 7.984375 11.851563 8 11.851563 8 C 13.753906 8 13.851563 6.332031 13.851563 6 C 13.851563 5.949219 13.851563 5.269531 13.316406 4.730469 C 12.835938 4.246094 12.039063 4 10.953125 4 C 10.351563 4 9.085938 4.308594 8.144531 5.460938 C 7.011719 6.855469 6.710938 9.046875 7.277344 11.796875 C 9 20.113281 20.085938 23.003906 20.199219 23.027344 Z "></path>
+    <path style=" fill:#E5A24A;" d="M 28.089844 25 L 27.492188 23.09375 C 27.589844 23.0625 37.5625 19.828125 40.398438 11.714844 C 41.265625 9.234375 41.207031 7.273438 40.21875 5.882813 C 39.261719 4.535156 37.644531 4.046875 36.789063 4.046875 C 33.824219 4.046875 33.789063 5.964844 33.789063 6.046875 C 33.796875 6.507813 33.964844 8.046875 35.789063 8.046875 C 36.238281 8.035156 36.789063 7.851563 36.789063 7.046875 L 38.789063 7.046875 C 38.789063 9.246094 36.996094 10.046875 35.789063 10.046875 C 32.855469 10.046875 31.789063 7.652344 31.789063 6.046875 C 31.789063 4.664063 32.835938 2.046875 36.789063 2.046875 C 38.3125 2.046875 40.542969 2.882813 41.851563 4.722656 C 42.800781 6.0625 43.648438 8.480469 42.289063 12.375 C 39.113281 21.449219 28.539063 24.859375 28.089844 25 Z "></path>
+    <path style=" fill:#FFBA57;" d="M 29 39 L 19 39 L 19 37 C 19 35.894531 23 34 23 34 L 25 34 C 25 34 29 35.894531 29 37 Z "></path>
+    <path style=" fill:#FFBA57;" d="M 34 3 C 34 11 31.914063 28 24 28 C 16.085938 28 14 11 14 3 Z "></path>
+    <path style=" fill:#FFECB3;" d="M 25 19 L 23 19 L 23 11.609375 L 21 12.273438 L 21 10.515625 L 24.8125 9 L 25 9 Z "></path>
+    <path style=" fill:#7A534B;" d="M 17 38 L 31 38 L 31 46 L 17 46 Z "></path>
+    <path style=" fill:#FFE082;" d="M 19 41 L 29 41 L 29 43 L 19 43 Z "></path>
+  </g>
+</svg>
+<div class="humburger-menu">
+  <svg class="humburger humburger-menu__item" viewBox="0 0 90 80" width="180" height="160" >    
+    <line class="humburger__line" x1="10" y1="20" x2="80" y2="20" " />
+    <line class="humburger__line humburger__line--central" x1="10" y1="40" x2="80" y2="40" " />
+    <line class="humburger__line humburger__line--under" x1="10" y1="60" x2="80" y2="60"  />
+  </svg>
+</div>
+  <!--buttons with animation -->
+<div class="buttons-block">
+        <svg class="buttons-block__area" viewBox="0 0 600 300">
+          <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
+            <rect class="buttons-block__rectangle" x="0" y="0" width="300" height="100"/>
+            <rect class="buttons-block__rectangle-hover" width="0" height="100" x="50%" id="my-circle" />
+            <text class="buttons-block__text" x="60" y="55">Continue</text>
+          </svg>
+        </svg>
+      <svg class="buttons-block__area buttons-block__area--dark" viewBox="0 0 600 300">
+        <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
+            <rect class="buttons-block__rectangle buttons-block__rectangle--purple" x="0" y="0" width="300" height="100"/>
+            <rect class="buttons-block__rectangle-hover buttons-block__rectangle-hover--purple" width="0" height="100" x="50%" id="my-circle" />
+            <text class="buttons-block__text buttons-block__text--purple" x="60" y="55">Continue</text>
+          </svg>
+      </svg>
+</div>
+</body>
+</html>
