@@ -1,14 +1,15 @@
 @mixin humburger-outer-line-rotate($angle, $trX, $trY) {
-    0% {
-    transform: none;
-    }
+  0% {
+  transform: none;
+  }
 
-    20% {
-      transform:  translateY($trY);
-    }
-    30%,
-    90% {
-      transform-origin: left center;
-      transform: rotate($angle) translate($trX,$trY);   
-    }
+  20% {
+    transform:  translateY($trY);
+  }
+  
+  30%,
+  90% {
+    transform-origin: left center;
+    transform: rotate($angle) translate($trX,$trY);   
+  }
 }

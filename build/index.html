@@ -15,21 +15,14 @@
     <ellipse rx="200" ry="100"  cx="570" cy="470" fill="transparent" stroke="yellow" stroke-dasharray="4" stroke-width="3"/>
     <circle class="path" r="130" cx="720" cy="150" fill="transparent" stroke="red" stroke-width="20"/> 
   </svg>
-  <div>
-    <svg viewbox="0 0 200 200" width=" 200" height="200">
-      <style xmlns="http://www.w3.org/2000/svg" type="text/css">
-      .star1{fill:#39b54a;}
-    </style>
-    <path xmlns="http://www.w3.org/2000/svg" class="star1" d="M100,0C44.77,0,0,44.77,0,100c0,55.23,44.77,100,100,100s100-44.77,100-100C200,44.77,155.23,0,100,0z   M146.19,163.57L100,139.29l-46.19,24.28l8.82-51.43L25.27,75.72l51.64-7.5L100,21.42l23.09,46.79l51.64,7.5l-37.37,36.42  L146.19,163.57z"/>
-  </svg>
-</div>
-<h2>with tag object</h2>
-<object width="200" data="img/circle-star.svg" type="image/svg+xml"></object>
-
-<div>
-  <h2>Base64 Data URI in background-image</h2>
-  <div class="base64"></div>
-</div>
+  <svg class="centro" viewbox="0 0 200 200" width=" 200" height="200">
+    <style xmlns="http://www.w3.org/2000/svg" type="text/css">
+    .star1{fill:#39b54a;}
+  </style>
+  <path xmlns="http://www.w3.org/2000/svg" class="star1" d="M100,0C44.77,0,0,44.77,0,100c0,55.23,44.77,100,100,100s100-44.77,100-100C200,44.77,155.23,0,100,0z   M146.19,163.57L100,139.29l-46.19,24.28l8.82-51.43L25.27,75.72l51.64-7.5L100,21.42l23.09,46.79l51.64,7.5l-37.37,36.42  L146.19,163.57z"/>
+</svg>
+<object class="centro" width="200" data="img/circle-star.svg" type="image/svg+xml"></object>
+<div class="base64"></div>
 <svg class="centro"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="fill:#000000;">
   <g id="surface1">
     <path style=" fill:#FFA000;" d="M 25 34 L 24 36 L 23 34 L 22 26 L 26 26 Z "></path>
@@ -45,28 +38,28 @@
   </g>
 </svg>
 <div class="humburger-menu">
-  <svg class="humburger humburger-menu__item" viewBox="0 0 90 80" width="180" height="160" >    
-    <line class="humburger__line" x1="10" y1="20" x2="80" y2="20" " />
-    <line class="humburger__line humburger__line--central" x1="10" y1="40" x2="80" y2="40" " />
-    <line class="humburger__line humburger__line--under" x1="10" y1="60" x2="80" y2="60"  />
+  <svg class="humburger humburger-menu__item" viewBox="0 0 90 80" width="180" height="160">    
+    <line class="humburger__line" x1="10" y1="20" x2="80" y2="20"/>
+    <line class="humburger__line humburger__line--central" x1="10" y1="40" x2="80" y2="40"/>
+    <line class="humburger__line humburger__line--under" x1="10" y1="60" x2="80" y2="60"/>
   </svg>
 </div>
-  <!--buttons with animation -->
+<!--buttons with animation -->
 <div class="buttons-block">
-        <svg class="buttons-block__area" viewBox="0 0 600 300">
-          <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
-            <rect class="buttons-block__rectangle" x="0" y="0" width="300" height="100"/>
-            <rect class="buttons-block__rectangle-hover" width="0" height="100" x="50%" id="my-circle" />
-            <text class="buttons-block__text" x="60" y="55">Continue</text>
-          </svg>
-        </svg>
-      <svg class="buttons-block__area buttons-block__area--dark" viewBox="0 0 600 300">
-        <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
-            <rect class="buttons-block__rectangle buttons-block__rectangle--purple" x="0" y="0" width="300" height="100"/>
-            <rect class="buttons-block__rectangle-hover buttons-block__rectangle-hover--purple" width="0" height="100" x="50%" id="my-circle" />
-            <text class="buttons-block__text buttons-block__text--purple" x="60" y="55">Continue</text>
-          </svg>
-      </svg>
+  <svg class="buttons-block__area" viewBox="0 0 600 300">
+    <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
+      <rect class="buttons-block__rectangle" x="0" y="0" width="300" height="100"/>
+      <rect class="buttons-block__rectangle-hover" width="0" height="100" x="50%"/>
+      <text class="buttons-block__text" x="60" y="55">Continue</text>
+    </svg>
+  </svg>
+  <svg class="buttons-block__area buttons-block__area--dark" viewBox="0 0 600 300">
+    <svg x="150" y="100" class="buttons-block__button" viewBox="0 0 300 100" width="300" height="100">
+      <rect class="buttons-block__rectangle buttons-block__rectangle--purple" x="0" y="0" width="300" height="100"/>
+      <rect class="buttons-block__rectangle-hover buttons-block__rectangle-hover--purple" width="0" height="100" x="50%"/>
+      <text class="buttons-block__text buttons-block__text--purple" x="60" y="55">Continue</text>
+    </svg>
+  </svg>
 </div>
 </body>
 </html>
